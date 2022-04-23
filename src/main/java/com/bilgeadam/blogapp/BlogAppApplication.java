@@ -22,17 +22,17 @@ public class BlogAppApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         Post post = new Post();
-        post.setTitle("Elektrik Faturaları Belimizi Büktü");
-        post.setDescription("Faturalar 1 ayda 2 kat arttı.");
+        post.setTitle("6 Algorithms Every Developer Should Know");
+        post.setDescription("Data Structures and Algorithms aren’t really my thing.");
 
         Comment comment1 = new Comment();
-        comment1.setText("Ödemiyoruz!");
+        comment1.setText("Loved it!");
 
         Comment comment2 = new Comment();
-        comment2.setText("İflas ettik!");
+        comment2.setText("Great post!");
 
         Comment comment3 = new Comment();
-        comment3.setText("Sandıkta görüşürüz!");
+        comment3.setText("Thanks you, it became very helpful resource for me.");
 
         post.getComments().add(comment1);
         post.getComments().add(comment2);
